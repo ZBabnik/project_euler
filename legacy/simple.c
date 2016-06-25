@@ -1,4 +1,4 @@
-#include <Python.h>
+//#include <Python.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <sys/types.h>
@@ -29,11 +29,11 @@ int main()
 
     FILE* f = fopen(dir_name_file, "w");
     fprintf(f, "/* Navodila rabm še nardit ... */\n\n#include <stdio.h>\n#include <stdlib.h>\n\n int main()\n{\n    int res = 0;\n    printf();\n    return 0;\n}");
-    
+    /*
     Py_Initialize();
     PyRun_SimpleString("print 'HI!'\n");
     Py_Finalize();
-    
+    */
     fclose(f);
    
     return 0;
